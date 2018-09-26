@@ -5,7 +5,7 @@ echo "git test" > main.js
 git add .
 git commit -m "initial commit"
 
-./add_commit.sh main.js "main code 1"
+./add_commit.sh main.js "main code 1: \n g"
 
 git co -b feature_c
 ./add_commit.sh main.js "feature code 1"
